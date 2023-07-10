@@ -101,3 +101,23 @@
     text-align: center;
     text-decoration: underline;
 }
+.offer{
+    margin-top: 5rem;
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    align-items: center;
+    height: 50vh;
+}
+.text-color{
+    color: rgba(229, 84, 115, 1);
+}
+.offer-text p{
+    padding: 1rem 0;
+}
+
+.offer-image img{
+    width: 40vh;
+    height: 40vh;
+}
