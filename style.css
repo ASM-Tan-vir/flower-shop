@@ -3,6 +3,19 @@
     padding: 0;
     box-sizing: none;
     font-family: 'Poppins', sans-serif;
+    
+}
+
+.paragraph{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 0.7rem;
+}
+
+.primary-btn{
+    padding: 0.4rem 1rem;
+    border-radius: 5%;
+    border: none;
+    background-color: rgba(229, 84, 115, 1);
 }
 .banner-container{
     background-color: rgba(229, 84, 115, 0.1);
@@ -14,21 +27,15 @@
     background-size: cover;
 }
 .banner-container .banner-content h3{
-    font-weight: 800;
+    font-weight: 700;
     font-size: 2rem;
     padding-bottom: 1rem;
     color: rgba(39, 39, 39, 1);
 }
 .banner-container .banner-content p{
-    color: rgba(39, 39, 39, 0.6);
+    /* color: rgba(39, 39, 39, 0.6); */
     padding-bottom: 1rem;
-    font-size: 0.7rem;
-}
-.banner-container .banner-content button{
-    padding: 0.4rem 1rem;
-    border-radius: 5%;
-    border: none;
-    background-color: rgba(229, 84, 115, 1);
+    /* font-size: 0.7rem; */
 }
 .banner-container .banner-img img{
     padding-top: 4rem;
@@ -36,5 +43,61 @@
 }
 
 .features .featured-text {
-    
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.features .featured-text h3{
+    font-weight: 600;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    color: rgba(39, 39, 39, 1);
+}
+.featured-images{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.flower-item1{
+    height: 350px;
+    width: 300px;
+    background-color:rgba(167, 33, 98, 0.15);
+    border-radius: 50% 50% 0 0;
+    margin: 0 0.5rem;
+}
+
+.flower-item1 img{
+    padding-left: 2.5rem;
+    padding-top: 4.3rem;
+    height: 280px;
+    width: 200px;
+}
+.flower-item2{
+    height: 350px;
+    width: 300px;
+    background-color:rgba(5, 151, 160, 0.15);
+    border-radius: 50% 50% 0 0;
+}
+.flower-item2 img{
+    padding-left: 2.5rem;
+    padding-top: 4.3rem;
+    height: 280px;
+    width: 200px;
+}
+.flower-item3{
+    height: 350px;
+    width: 300px;
+    background-color:rgba(71, 125, 17, 0.15);
+    border-radius: 50% 50% 0 0;
+    margin: 0 0.5rem;
+}
+.flower-item3 img{
+    padding-left: 2.5rem;
+    padding-top: 4.3rem;
+    height: 280px;
+    width: 200px;
+}
+.flower-text{
+    text-align: center;
+    text-decoration: underline;
 }
