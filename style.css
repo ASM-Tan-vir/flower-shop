@@ -2,4 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: none;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-container{
+    background-color: rgba(229, 84, 115, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    height: 100vh;
+    background-size: cover;
+}
+.banner-container .banner-content h3{
+    font-weight: 800;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    color: rgba(39, 39, 39, 1);
+}
+.banner-container .banner-content p{
+    color: rgba(39, 39, 39, 0.6);
+    padding-bottom: 1rem;
+    font-size: 0.7rem;
+}
+.banner-container .banner-content button{
+    padding: 0.4rem 1rem;
+    border-radius: 5%;
+    border: none;
+    background-color: rgba(229, 84, 115, 1);
+}
+.banner-container .banner-img img{
+    padding-top: 4rem;
+    height: 550px;
+}
+
+.features .featured-text {
+    
 }
