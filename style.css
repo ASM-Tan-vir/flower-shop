@@ -122,6 +122,16 @@
     width: 40vh;
     height: 40vh;
 }
+.support{
+    background-color: rgba(39, 39, 39, 0.05);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: center;
+    justify-content: space-between;
+    margin: 2rem 200px;
+    padding: 2rem;
+}
 .instagram-text{
     padding: 2rem 0rem;
     text-align: center;
