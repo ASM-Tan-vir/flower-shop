@@ -121,3 +121,39 @@
     width: 40vh;
     height: 40vh;
 }
+.instagram-text{
+    padding: 2rem 0rem;
+    text-align: center;
+}
+.instagram-text h3{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.instagram .insta-images{
+    display: flex;
+    justify-content: center;
+}
+.insata-image1 img{
+    height: 40vh;
+    width: 35vh;
+    margin: 0.5rem;
+    border-radius: 5%;
+}
+.insata-image2 img{
+    height: 40vh;
+    width: 35vh;
+    margin: 0.5rem;
+    border-radius: 5%;
+}
+.insata-image3 img{
+    height: 40vh;
+    width: 35vh;
+    margin: 0.5rem;
+    border-radius: 5%;
+}
+.insata-image4 img{
+    height: 40vh;
+    width: 35vh;
+    margin: 0.5rem;
+    border-radius: 5%;
+}
