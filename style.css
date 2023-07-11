@@ -185,6 +185,37 @@
     margin: 0 0.5rem;
     cursor: pointer;
 }
+.contact-us h1{
+    background-color: rgba(229, 84, 115, 1);
+    text-align: center;
+    margin: 0 400px;
+    border-radius: 3%;
+}
+.contact-us form{
+    margin: 20px 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    border-style: none;
+    box-shadow: 0.5rem rgba(17, 16, 16, 1);
+}
+.contact-us form input {
+    border: 2px solid;
+    border-color: rgba(229, 84, 115, 1);
+    box-shadow:  0.5rem rgba(17, 16, 16, 1);
+    border-radius: 3%;
+}
+.contact-us form textarea{
+    border: 2px solid;
+    border-color: rgba(229, 84, 115, 1);
+    box-shadow:  0.5rem rgba(17, 16, 16, 1);
+    border-radius: 2%;
+}
+.form-btn{
+    text-align: center;
+    margin: 0 400px;
+}
 footer{
     background-color: rgba(17, 16, 16, 1);
     text-align: center;
@@ -203,5 +234,5 @@ footer{
     padding-bottom: 0.5rem;
 }
 .footre-content .copy-right{
-    color: copy-right;
+    color: rgba(255, 255, 255, 0.4);
 }
