@@ -164,6 +164,7 @@
     background-size: cover;
     margin: 5rem 180px;
     text-align: center;
+    border-radius: 3%;
 }
 .subscription .subscription-content{
     padding-top: 20vh;
